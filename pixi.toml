@@ -1,0 +1,11 @@
+[workspace]
+authors = ["mathias157 <mathiasros@proton.me>"]
+channels = ["conda-forge"]
+name = "odp-editor"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+click = ">=8.3.1,<9"
