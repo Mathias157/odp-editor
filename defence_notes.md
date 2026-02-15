@@ -13,9 +13,9 @@
 1. ...and that it is important to also consider other sectors.
 
 ## S4
-1. The higher decarbonisation rate of the power sector is related to investments in renewable energy and power grids, which hit a 2 B dollar record in 2024 according to Bloomberg 
-2. They estimate that this level should more than double immediately to get on track with climate targets,
-3. and triple by 2036 and remain at that level until 2050.
+1. The higher decarbonisation rate of the power sector is explained by record investments in renewables and power grids, 
+2. and Bloomberg estimate that this level should more than double immediately 
+3. and triple by 2035 through 2050 to get on track with emission reduction targets,
 
 ## S5
 - These are useful numbers, provided by mathematical models
@@ -99,12 +99,13 @@
 - So, we move on to the methodologies I applied.
 
 ## S19
-1. Energy system optimisation models and power system simulation models can help answer these questions, so I've used a representative from each discipline: BALMOREL and ANTARES
-2. Models assume perfect market conditions in the minimisation of when optimising or simulating supply, transport, storage and conversion of energy
+- One of the challenges in model coupling is the fact that you often need to couple frameworks with different formats, model formulations and data structures, 
+- so we chose two frameworks to make this challenge part of the thesis,
+- but in hindsight, the work of the thesis might have been stronger if I had just sticked to one framework, as this choice didn't result in any novel findings
+1. But a representative from the landscape of optimisation based approaches and simulation based: BALMOREL and ANTARES
+2. which assume perfect market conditions in the minimisation of when optimising or simulating supply, transport, storage and conversion of energy
 3. BALMOREL requires temporal aggregation, whereas hourly resolution for many scenarios, e.g. weather years, are used for ANTARES
 4. Full foresight in BALMOREL, heuristic applied for weekly problems in ANTARES
-- BALMOREL could have been used as the simulation model for many scenarios as well, but since one of the challenges in model coupling is the fact that you often need to couple frameworks with different formats, model formulations and data structures, it would be 'cheating' to just do that
-- Hence, I applied ANTARES simulator for that part to include this harmonisation challenge in the project. 
 
 ## S20
 1. Different combinations of optimisations and simulations were used,
